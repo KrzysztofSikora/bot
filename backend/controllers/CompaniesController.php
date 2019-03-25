@@ -91,7 +91,7 @@ class CompaniesController extends Controller
                 return $this->redirect(['view', 'id' => $model->company_id]);
             }
 
-            return $this->render('create', [
+            return $this->render('create', [s
                 'model' => $model,
             ]);
         } else {
